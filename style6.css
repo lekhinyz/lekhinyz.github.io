@@ -1,0 +1,227 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+html{ background-color: white;
+ color: rgb(24, 14, 2);
+font-family: lato;
+font-weight: 300;
+font-size: 15px;
+text-rendering: optimizeLegibility;}
+
+h1, h2, h3, p {
+    color: rgb(100, 95, 95);
+}
+h5{
+    color: green;
+}
+    
+h1{
+    padding-top: 30px;
+}
+h3{
+    color: black;
+}
+h4{color: white;}
+
+.header_content{
+    background-color: blue;
+    align-items: center;
+    padding: 10px;
+    justify-content: left;
+    padding-left: 150px;
+    color: white;
+    }
+    
+    .logo{
+        width: 3rem;
+        height: 3rem;
+        background-color: rgb(224, 221, 221);
+        color: gray;
+        padding: 10px 10px;
+        border-radius: 50%;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    
+    .soko_bag{
+    font-size: 20px;
+    padding-top: 10px;
+    }
+    
+    .company{width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        border-bottom: 2px solid  rgb(203, 206, 240);
+        }
+        
+        .company_content{ float: left;
+        display: flex;
+        
+           
+        }
+        .target_add{
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+
+/*.........FIRST(NAVIGATION) SECTION..........*/
+    
+    .company_content1{ 
+        display: flex;
+        margin-top: 20px;
+        margin-left: 200px;
+        
+    }
+    .content_bag, .content_account {
+    display: flex;
+    margin-left: 30px;
+    
+        padding: 10px 30px;
+        
+        color: blue;
+        border: 20px;
+    }
+    
+    
+    .icon_bag, .icon_account{
+    font-size: 150%;
+    color: gray;
+    margin: 10px
+    }
+    
+    .bag_link, .account_link{
+        text-decoration: none;
+        color: gray;
+        margin-top: 15px;
+    
+    }
+
+/*..........SECOND SECTION..........*/
+     .account_bag{
+      display: grid;
+      grid-template-columns: 10% 50% 40%
+      }
+
+.number_steps{ margin: 30px;}
+
+
+
+.number_steps div{
+    background-color: blue;
+    border: 2px solid gray;
+    border-radius: 50%;
+    height: 6%;
+    width: 40%;
+    margin-top: 10px;
+}
+
+.number_step1, .number_step2, .number_step3{ 
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.account{margin-left: 30px;
+    
+
+    border-right: 2px solid rgb(203, 206, 240);
+
+}
+
+.account_details{
+    margin-top: 30px;
+}
+
+.bag_details{
+    margin-top: 50px;
+    margin: 30px;
+}
+
+.account_details p{
+    margin-top: 5px;
+}
+.account_details h5{
+    margin-top: 20px;
+}
+
+.mobile_number{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;  
+    border: 2px solid rgb(129, 129, 138);
+}
+
+
+
+.login:link,
+.login:visited{ text-decoration: none;
+        background-color: rgb(179, 174, 174);
+        border-radius:5px;
+        margin-left: 20px;
+        padding: 12px 40px;
+        color: white;
+        transition: background-color 0.5s;
+       }
+
+
+ .login:hover,
+.login:active{
+    background-color: rgb(241, 225, 79);
+
+   }
+
+
+    .deliver_add{
+        margin-top: 70px;
+    }
+
+
+    .payment_med{
+        margin-top: 70px ;
+    }
+
+.bag_details{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   border-bottom: 2px solid rgb(155, 183, 235);
+
+}
+
+.bag_number{
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.clear_bag{
+margin-top: 30px;
+}
+
+.product_1, .product_2{
+    margin-top: 30px;
+}
+
+    .zero { width: 15%;
+        border-radius: 5px;
+        background-color: blue;
+        color: white;
+    margin-left: 5px;
+    text-align: center;}
+
+
+    .input_number{
+        border: 2px solid blue;
+        border-radius: 5px;
+        width: 30%;
+        margin-top: 65px;
+        
+    }
+
+    .sub_total{
+        margin-top: 30px;
+    }
+    

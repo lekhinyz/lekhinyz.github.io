@@ -1,0 +1,249 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+html{ background-color: white;
+ color: rgb(24, 14, 2);
+font-family: lato;
+font-weight: 300;
+font-size: 15px;
+text-rendering: optimizeLegibility;}
+
+h1, h2, h3, p {
+    color: rgb(100, 95, 95);
+}
+h1{
+    padding-top: 30px;
+}
+h3{ text-transform: uppercase;
+    color: black;
+}
+h4{color: white;}
+
+/*..........HEADER PART..........*/
+
+.header_content{
+    background-color: blue;
+    align-items: center;
+    padding: 10px;
+    justify-content: left;
+    padding-left: 150px;
+    color: white;
+    }
+    
+    .logo{
+        width: 3rem;
+        height: 3rem;
+        background-color: rgb(224, 221, 221);
+        color: gray;
+        padding: 10px 10px;
+        border-radius: 50%;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    
+    .soko_bag{
+    font-size: 20px;
+    padding-top: 10px;
+    }
+    
+ /*.........FIRST(NAVIGATION) SECTION..........*/
+
+    .company{width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: 2px solid  rgb(203, 206, 240);
+    }
+    
+    .company_content{ float: left;
+    display: flex;
+    
+       
+    }
+    .target_add{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .btn_furniture{
+        text-decoration: none;
+        font-size: 30px;
+        color: rgb(114, 114, 117);
+    }
+    
+    .company_content1{ 
+        display: flex;
+        margin-top: 30px;
+        margin-left: 200px;
+        
+    }
+    .content_bag, .content_account {
+    display: flex;
+    margin-left: 30px;
+
+    padding: 10px 30px;
+    
+    color: blue;
+    border: 20px;
+  
+    }
+    
+    .icon_bag, .icon_account{
+    font-size: 150%;
+    color: gray;
+    margin: 10px
+    }
+    
+    .bag_link, .account_link{
+        text-decoration: none;
+        color: gray;
+        margin-top: 15px;
+    
+    }
+
+     /*.........SECOND SECTION..........*/
+
+.electronics_image{ display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+
+}
+
+.kettle_img{
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 180px;
+    width: 450px;
+}
+
+.payment{
+    display: flex;
+    margin-bottom: 10px;
+    }
+
+.long_word, .long_word1, .payment{
+    margin-top: 30px;
+}
+.input_number{
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 10%;
+}
+.discount{
+    background-color: red;
+    padding: 2px 9px;
+    border-radius: 5px;
+    color: white;
+    width: 7%;
+    margin-left: 30px;
+}
+
+.button{
+    margin-top: 50px;
+}
+
+
+.btn:link,
+.btn:link{ display: inline-block;
+    text-decoration: none;
+padding: 10px 70px;
+border-radius: 10px;
+margin: 10px;
+transition: background-color 0.5s;
+}
+
+.btn:hover,
+.btn:active{ background-color: rgb(240, 211, 46);
+}
+
+.ghost-btn:link,
+.ghost-btn:visited{
+border: 2px solid blue;
+color: blue;
+
+}
+
+.ghost-btn:hover,
+.ghost-btn:active{
+border: 2px solid blue;
+color: rgb(233, 7, 7);}
+
+.full-btn:link,
+.full-btn:visited{
+    background-color: rgb(240, 211, 46);
+    color: blue;
+    border: 2px solid rgb(240, 211, 46);
+}
+
+.full-btn:hover,
+.full-btn:active{
+    border: 2px solid rgb(240, 211, 46);
+}
+
+
+.related_product{
+    width: 100%;
+    padding: 30px 0;
+    margin-left: 170px;
+    overflow-x: hidden;
+   
+}
+
+.product_image{ display: flex;
+   justify-content: left; 
+   width: 100%; 
+
+}
+
+
+img{
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.customer_needs{display: grid;
+    grid-template-columns: 30% 40% 30%;  
+    padding: 50px;
+    padding-left: 100px;
+    background-color: blue;
+}
+
+.icon_customer{padding-right: 30px;
+    font-size: 300%;
+    color: yellow;
+}
+
+.customer{
+    color: white;
+    padding: left;
+}
+
+/*...........FOOTER SECTION.........*/
+
+.footer_nav{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.footer_store{
+    margin-bottom: 20px;
+}
+.footer_chat{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(53, 175, 89);
+    margin-left: 600px;
+    margin-right: 600px;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer_chat a{
+    color: white;
+    text-decoration: none;
+}
+.footer_contact{
+    color: white;
+    padding-right: 5px;
+    margin-top: 2px;
+}

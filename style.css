@@ -1,0 +1,288 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+html{ background-color: white;
+ color: rgb(24, 14, 2);
+font-family: lato;
+font-weight: 300;
+font-size: 16px;
+text-rendering: optimizeLegibility;}
+
+/*..........HEADER PART..........*/
+
+.header_content{
+background-color: blue;
+align-items: center;
+padding: 10px;
+justify-content: left;
+padding-left: 150px;
+color: white;
+}
+
+.soko_bag{
+font-size: 20px;
+padding-top: 10px;
+}
+
+
+h1{
+    padding-top: 30px;
+    color: rgb(100, 95, 95);
+}
+h2{font-size: 18px;
+    color: rgb(100, 95, 95);
+}
+
+h3{
+    color: black;
+}
+h4{color: white;}
+
+p{ font-size: 16px;
+    color: rgb(100, 95, 95);}
+
+
+
+
+
+/*.......FIRST (NAVIGATION) SECTION.......*/
+.company{width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: 2px solid  rgb(203, 206, 240);
+    }
+    
+    .company_content{ 
+    display: flex;
+    float: left;
+    }
+    
+    .logo{
+        width: 3rem;
+        height: 3rem;
+        background-color: rgb(224, 221, 221);
+        color: gray;
+        padding: 10px 10px;
+        border-radius: 50%;
+        margin-left: 100px;
+        margin-top: 20px; 
+    }
+
+    .target_add{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+.company_content1{ 
+    display: flex;
+    margin-top: 20px;
+    margin-left: 200px;
+    overflow: hidden;
+    
+}
+.content_bag, .content_account {
+    display: flex;
+    margin-left: 30px;
+    padding: 10px 30px;
+    border: 20px;
+}
+
+
+.icon_bag, .icon_account{
+font-size: 150%;
+color: gray;
+margin: 10px
+}
+
+.bag_link, .account_link{
+    text-decoration: none;
+    color: gray;
+    margin-top: 15px;
+
+}
+
+/*........SECOND(SEARCH) SECTION.........*/
+.search{
+    display: flex;
+justify-content: center;
+position: relative;
+    }
+
+.search_input{ height: 35px;
+    width: 38%;
+    border: 0;
+    font-size: 16px;
+    padding-left: 20px;
+    background-color: rgb(223, 223, 223);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 2;
+
+}
+.search_icon{height: 15px !important;
+    width: 20px;
+    padding: 10px 10px;
+    font-size: 30px;
+    background-color: rgb(240, 211, 46);
+    color:#5078ef;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+
+}
+/*........THIRD SECTION.........*/
+
+.container{width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+.items_list{text-align:start;
+    padding-left: 80px;
+    border-right: 2px solid rgb(203, 206, 240);
+}
+
+.container_list{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.container_list li{
+    text-decoration: none;
+    margin-top: 30px;
+    
+}
+.container_list a:link,
+.container_list a:visited{
+    padding: 5px 94px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(105, 103, 103);
+   transition: 0.5s;
+}
+
+.container_list a:hover,
+.container_list a:active{
+background: rgba(122, 122, 236, 0.342);
+
+border-right: 5px solid blue;
+color: rgb(11, 11, 201);
+}
+
+.category_bold{ text-decoration: none;
+    color: blue;
+    margin-left: 97px;
+    font-size: 18px;
+    
+}
+
+
+
+.other_items{display: block;
+    border-right: 2px solid  rgb(203, 206, 240);
+    margin-left: 20px;
+}
+.electronics{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.zero { width: 10%;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    margin-left: 5px;
+    text-align: center;}
+
+.image_list{
+    display: flex;
+    flex-direction: column;
+     
+}
+img{ width: 120px;
+    height: 100px;
+    border-radius: 5%;
+    padding-left: 5px;
+}
+
+.items_add{
+    padding: 5px 20px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: white;
+    color: blue;
+    border: 2px solid rgb(55, 17, 223);
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.shopping_items{
+    text-align: center;
+
+}
+.icon_face{
+    font-size: 1000%;
+    color: gray;
+}
+
+.bag_number{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+
+/*..........FOURTH SECTION.........*/
+.customer_needs{display: grid;
+    grid-template-columns: 30% 40% 30%;  
+    padding: 50px;
+    padding-left: 150px;
+    background-color: blue;
+}
+
+.icon_customer{padding-right: 30px;
+    font-size: 300%;
+    color: yellow;
+}
+ 
+.customer{
+    color: white;
+    padding: left;
+}
+/*..........FOOTER.........*/
+.footer_nav{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.footer_store{
+    margin-bottom: 20px;
+}
+.footer_chat{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(53, 175, 89);
+    margin-left: 600px;
+    margin-right: 600px;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer_chat a{
+    color: white;
+    text-decoration: none;
+}
+.footer_contact{
+    color: white;
+    padding-right: 5px;
+    margin-top: 2px;
+}

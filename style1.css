@@ -1,0 +1,123 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+html{ background-color: white;
+ color: rgb(24, 14, 2);
+font-family: lato;
+font-weight: 300;
+font-size: 16px;
+text-rendering: optimizeLegibility;}
+
+h1, h2, h3, p {
+    color: rgb(100, 95, 95);
+}
+h1{
+    padding-top: 30px;
+}
+h3{
+    color: black;
+}
+h4{color: white;}
+
+
+/*..........HEADER PART..........*/
+
+.header_content{
+    background-color: blue;
+    align-items: center;
+    padding: 10px;
+    justify-content: left;
+    padding-left: 150px;
+    color: white;
+    }
+    
+    .logo{
+        width: 3rem;
+        height: 3rem;
+        background-color: rgb(224, 221, 221);
+        color: gray;
+        padding: 10px 10px;
+        border-radius: 50%;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    
+    .soko_bag{
+    font-size: 20px;
+    padding-top: 10px;
+    }
+
+    /*.......FIRST (NAVIGATION) SECTION.......*/
+
+    .company{width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        border-bottom: 2px solid  rgb(203, 206, 240);
+        }
+        
+        .company_content{ float: left;
+        display: flex;
+        
+           
+        }
+        .target_add{
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+    
+        .company_content1{ 
+            display: flex;
+            margin-top: 30px;
+            margin-left: 200px;
+            
+        }
+        .content_bag, .content_account {
+        display: flex;
+        margin-left: 30px;
+    
+        padding: 10px 30px;
+        
+        color: blue;
+        border: 20px;
+      
+        }
+        
+        .icon_bag, .icon_account{
+        font-size: 150%;
+        color: gray;
+        margin: 10px
+        }
+        
+        .bag_link, .account_link{
+            text-decoration: none;
+            color: gray;
+            margin-top: 15px;
+        
+        }
+
+
+        /*........SECOND SECTION.........*/
+
+.empty_bag{ display: block;
+    text-align: center;
+    margin-top: 100px;
+
+}
+    .icon_face{
+        font-size: 1000%;
+        color: gray;
+    }
+.homepage{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+    .back_homepage{
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 5px;
+        background-color: yellow;
+        color: blue;
+        
+    }
